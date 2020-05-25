@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1062
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhishingReporter", "PhishingReporter\PhishingReporter.csproj", "{A5AE1C29-18E0-4E3E-A3E1-AC8EE23FF9A6}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Installer", "Installer\Installer.vdproj", "{FF40DAB7-3B03-488A-9370-2B38880829F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5AE1C29-18E0-4E3E-A3E1-AC8EE23FF9A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5AE1C29-18E0-4E3E-A3E1-AC8EE23FF9A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5AE1C29-18E0-4E3E-A3E1-AC8EE23FF9A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5AE1C29-18E0-4E3E-A3E1-AC8EE23FF9A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF40DAB7-3B03-488A-9370-2B38880829F6}.Debug|Any CPU.ActiveCfg = Debug
+		{FF40DAB7-3B03-488A-9370-2B38880829F6}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F0E5073-1FB1-4109-A598-D630DA5BF9BD}
+	EndGlobalSection
+EndGlobal
