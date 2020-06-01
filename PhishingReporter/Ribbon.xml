@@ -1,15 +1,20 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <customUI onLoad="Ribbon_Load" xmlns="http://schemas.microsoft.com/office/2009/07/customui">
-    <ribbon>
-        <tabs>
-          <!--<tab id="tab1" label="Test">-->
-          <tab idMso="TabMail">
-            <group id="group1" label="InfoSec">
-              <button size="large" getImage="getGroup1Image" showImage="true" id="reportPhishingBtn" onAction="reportPhishing" label="Report Phishing" />
-            </group>
-          </tab>
-        </tabs>
-    </ribbon>
+  <ribbon>
+    <tabs>
+      <!--<tab id="tab1" label="Test">-->
+      <tab idMso="TabMail">
+        <group id="group1" label="InfoSec">
+          <button size="large" getImage="getGroup1Image" showImage="true" id="reportPhishingBtn" onAction="reportPhishing" label="Report Phishing" />
+        </group>
+      </tab>
+      <tab idMso="TabReadMessage">
+        <group id="group2" label="InfoSec">
+          <button size="large" getImage="getGroup1Image" showImage="true" id="reportPhishingBtn2" onAction="reportPhishing" label="Report Phishing" />
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
   <contextMenus>
     <contextMenu idMso ="ContextMenuMailItem">
       <button getImage="getGroup1Image" showImage="true" id="ctxmenu_reportPhishingBtn" onAction="reportPhishing" label="Report Phishing" />
