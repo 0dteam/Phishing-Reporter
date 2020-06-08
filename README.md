@@ -26,8 +26,8 @@ If you plan to use the plugin, please fill the 3 Questions [survey](https://form
 
 # How-to Guide:
 
-> Note: I used Visual Studio 2017 with .NET Framework 4.8 to compile it. The plugin was tested on Outlook 2019.
-> Also, verify that you have "Microsoft Visual Studio Installer Projects" component installed in Visual Studio. You can install it by going to "Tools" -> "Get Tools and Features"
+> - Note: I used Visual Studio 2017 with .NET Framework 4.8 to compile it. The plugin was tested on Outlook 2019.
+> - Also, verify that you have "Microsoft Visual Studio Installer Projects" component installed in Visual Studio. You can install it by going to "Tools" -> "Get Tools and Features"
 
 1. Download the project and extract it.
 2. Double click "PhishingReporter.sln" to open the project using Visual Studio.
