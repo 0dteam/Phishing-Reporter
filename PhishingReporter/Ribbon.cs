@@ -264,7 +264,30 @@ namespace PhishingReporter
                     if (att.Value.Contains("a"))
                     {
                         urlsText += "\n --> URL: " + att.Value.Replace(":", "[:]");
-                        domainsInEmail.Add(new Uri(att.Value).Host);
+                        // Domain Extraction
+                        try
+                        {
+                            domainsInEmail.Add(new Uri(att.Value).Host);
+                        }
+                        catch (UriFormatException)
+                        {
+                            // Try to process URL as email address. Example -> <a href="mailto:ask@0d.ae">...etc
+                            String emailAtChar = "@";
+                            int ix = att.Value.IndexOf(emailAtChar);
+                            if (ix != -1)
+                            {
+                                string emailDomain = att.Value.Substring(ix + emailAtChar.Length);
+                                try
+                                {
+                                    domainsInEmail.Add(new Uri(emailDomain).Host);
+                                }
+                                catch (UriFormatException)
+                                {
+                                    // if it fails again, ignore domain extraction
+                                    Console.WriteLine("Bad url: {0}", emailDomain);
+                                }
+                            }
+                        }
                     }
                 }
             }
