@@ -53,6 +53,31 @@ If you plan to use the plugin, please fill the 3 Questions [survey](https://form
 10. At the end, right-click `Installer` and choose `Build`.
 11. The installer file should be located in `PhishingReporter\Installer\Release` folder.
 
+
+# Integration with GoPhish:
+
+> This was tested with GoPhish v0.12.1 Windows version ([download link](https://github.com/gophish/gophish/releases/download/v0.12.1/gophish-v0.12.1-windows-64bit.zip))
+1. Download GoPhish and modify phishing server `listen_url` in config.json file.
+
+![Integrate_Step1](https://www.0d.ae/bl-content/uploads/pages/7728a42b4acd7a69b0f5d83e906b07f6/gophish1.png)
+
+2. Run GoPhish server.
+
+![Integrate_Step2](https://www.0d.ae/bl-content/uploads/pages/7728a42b4acd7a69b0f5d83e906b07f6/gophish2.png)
+
+3. In the project source code, Open `Settings.settings` and go to `Settings` Tab.
+4. Modify `gophish_url` and `gophish_listener_port` to match the values in **Step #1**.
+5. Take note of `gophish_custom_header`
+
+![Integrate_Step3](https://www.0d.ae/bl-content/uploads/pages/7728a42b4acd7a69b0f5d83e906b07f6/gophish3.png)
+
+6. Build the project and compile the installer.
+7. In GoPhish portal, while setting up the Sending Profile, add the custom header from **Step #5** with the value `{{.RId}}` and click Save Profile.
+
+![Integrate_Step4](https://www.0d.ae/bl-content/uploads/pages/7728a42b4acd7a69b0f5d83e906b07f6/gophish4.png)
+
+8. Create a campaign and test the plugin's report feature.
+
 # Credits
 - Abdulla Albreiki
 - Reused some code from [NotifySecurity](https://github.com/certsocietegenerale/NotifySecurity) project by Nicolas Chaussard
