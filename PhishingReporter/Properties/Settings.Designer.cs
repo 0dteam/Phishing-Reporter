@@ -49,7 +49,7 @@ namespace PhishingReporter.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("3338")]
+        [global::System.Configuration.DefaultSettingValueAttribute("80")]
         public string gophish_listener_port {
             get {
                 return ((string)(this["gophish_listener_port"]));
@@ -61,7 +61,7 @@ namespace PhishingReporter.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("X-GOPHISH-ASMN")]
+        [global::System.Configuration.DefaultSettingValueAttribute("X-GOPHISH-AJSMN")]
         public string gophish_custom_header {
             get {
                 return ((string)(this["gophish_custom_header"]));
@@ -85,7 +85,7 @@ namespace PhishingReporter.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("V1.0")]
+        [global::System.Configuration.DefaultSettingValueAttribute("V1.1")]
         public string plugin_version {
             get {
                 return ((string)(this["plugin_version"]));

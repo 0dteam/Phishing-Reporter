@@ -27,7 +27,7 @@ namespace PhishingReporter
         // This function constructs GoPhish report url from a custom header in the simulated phishing campaign email
         public static string setReportURL(string headers)
         {
-            // Extract GoPhish Custom Header (X-GOPHISH-ASMN: USERID0123)
+            // Extract GoPhish Custom Header (X-GOPHISH-AJSMN: USERID0123)
             var match = new Regex(WebExpID).Match(headers);
 
             foreach (var group in match.Groups)

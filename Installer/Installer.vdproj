@@ -52,7 +52,7 @@
         "Entry"
         {
         "MsmKey" = "8:_186964E82BFEB2A241A50679DDC513FB"
-        "OwnerKey" = "8:_93ACD61A0A29F38647BA0766252EC027"
+        "OwnerKey" = "8:_4D930C3603590D23B719D39F0EB97E8E"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -71,6 +71,12 @@
         {
         "MsmKey" = "8:_3EC07A7F3CE44435A43688F06E72A764"
         "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_4D930C3603590D23B719D39F0EB97E8E"
+        "OwnerKey" = "8:_FC9BDCC8E7B349F187C09B1D6B89DFCB"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -123,12 +129,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_93ACD61A0A29F38647BA0766252EC027"
-        "OwnerKey" = "8:_FC9BDCC8E7B349F187C09B1D6B89DFCB"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_CBDD1BB51A05053AFAA1F7A4DD7B93F2"
         "OwnerKey" = "8:_FC9BDCC8E7B349F187C09B1D6B89DFCB"
         "MsmSig" = "8:_UNDEFINED"
@@ -148,7 +148,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_93ACD61A0A29F38647BA0766252EC027"
+        "OwnerKey" = "8:_4D930C3603590D23B719D39F0EB97E8E"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -485,6 +485,37 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_4D930C3603590D23B719D39F0EB97E8E"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:HtmlAgilityPack, Version=1.11.23.0, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_4D930C3603590D23B719D39F0EB97E8E"
+                    {
+                    "Name" = "8:HtmlAgilityPack.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:HtmlAgilityPack.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_ADD082CFC486415CBECA415B6A68294D"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_4E02892336A84BE99E1A00063B185382"
             {
             "SourcePath" = "8:..\\splash.jpg"
@@ -638,37 +669,6 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_93ACD61A0A29F38647BA0766252EC027"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:HtmlAgilityPack, Version=1.11.23.0, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_93ACD61A0A29F38647BA0766252EC027"
-                    {
-                    "Name" = "8:HtmlAgilityPack.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:HtmlAgilityPack.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_ADD082CFC486415CBECA415B6A68294D"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_CBDD1BB51A05053AFAA1F7A4DD7B93F2"
             {
             "AssemblyRegister" = "3:1"
@@ -779,15 +779,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:PhishReporter"
-        "ProductCode" = "8:{006AF0B4-2408-4A31-B4BA-E427B7D17075}"
-        "PackageCode" = "8:{34F08B49-8A63-45E9-8A2B-44FB5D36CE3D}"
-        "UpgradeCode" = "8:{6E432BF4-79C8-48C4-B7BE-C76ECD167C9A}"
+        "ProductCode" = "8:{98A35ACE-E7E2-452F-87A9-E26F3555CC5A}"
+        "PackageCode" = "8:{3C80D259-8488-4462-9C31-73FCCC01A0E3}"
+        "UpgradeCode" = "8:{7D415F3D-E67F-43ED-B880-765510FC45F9}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
-        "ProductVersion" = "8:1.0.0"
+        "ProductVersion" = "8:1.1.0"
         "Manufacturer" = "8:COMPANYNAME"
         "ARPHELPTELEPHONE" = "8:+97121234567"
         "ARPHELPLINK" = "8:https://www.example.com"
@@ -1426,7 +1426,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_FC9BDCC8E7B349F187C09B1D6B89DFCB"
             {
-            "SourcePath" = "8:..\\PhishingReporter\\obj\\Debug\\PhishingReporter.dll"
+            "SourcePath" = "8:..\\PhishingReporter\\obj\\Release\\PhishingReporter.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_ADD082CFC486415CBECA415B6A68294D"

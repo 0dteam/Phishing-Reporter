@@ -9,16 +9,16 @@
       <Value Profile="(Default)">http://gophish.example.com</Value>
     </Setting>
     <Setting Name="gophish_listener_port" Type="System.String" Scope="User">
-      <Value Profile="(Default)">3338</Value>
+      <Value Profile="(Default)">80</Value>
     </Setting>
     <Setting Name="gophish_custom_header" Type="System.String" Scope="User">
-      <Value Profile="(Default)">X-GOPHISH-ASMN</Value>
+      <Value Profile="(Default)">X-GOPHISH-AJSMN</Value>
     </Setting>
     <Setting Name="support_email" Type="System.String" Scope="User">
       <Value Profile="(Default)">Plugin Support &lt;support@example.com&gt;</Value>
     </Setting>
     <Setting Name="plugin_version" Type="System.String" Scope="User">
-      <Value Profile="(Default)">V1.0</Value>
+      <Value Profile="(Default)">V1.1</Value>
     </Setting>
     <Setting Name="suspecious_reports_counter" Type="System.Int32" Scope="User">
       <Value Profile="(Default)">0</Value>
