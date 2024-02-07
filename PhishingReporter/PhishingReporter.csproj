@@ -199,6 +199,7 @@
       <DesignTime>True</DesignTime>
     </Compile>
     <None Include="app.config" />
+    <None Include="PhishingReporter_1_TemporaryKey.pfx" />
     <None Include="PhishingReporter_TemporaryKey.pfx" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -244,10 +245,10 @@
     <SignManifests>true</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>PhishingReporter_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestKeyFile>PhishingReporter_1_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>49F4622D1A7A5798A0337CEE03366CECC8D37E0C</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>0AE290FCBBB7F8001B9E543C48519BE80A316B15</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationIcon>phishing.ico</ApplicationIcon>

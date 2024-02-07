@@ -3,7 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="infosec_email" Type="System.String" Scope="User">
-      <Value Profile="(Default)">Information Security Team &lt;infosec@example.com&gt;</Value>
+      <Value Profile="(Default)">fatmanurbas1004@gmail.com</Value>
     </Setting>
     <Setting Name="gophish_url" Type="System.String" Scope="User">
       <Value Profile="(Default)">http://gophish.example.com</Value>
